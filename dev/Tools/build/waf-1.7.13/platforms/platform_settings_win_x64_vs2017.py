@@ -46,6 +46,9 @@ def load_win_x64_vs2017_common_settings(ctx):
     if ctx.options.use_uber_files:
         compiler_flags.append('/bigobj')
 
+	# Remove the waring with an ANSI source file
+    compiler_flags.append('/wd4819')
+		
     env['CFLAGS'] += compiler_flags
     env['CXXFLAGS'] += compiler_flags
 
