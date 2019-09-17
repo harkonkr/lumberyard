@@ -108,7 +108,7 @@ namespace LUAEditor
             70.0f / 255.0f, 70.0f / 255.0f, 70.0f / 255.0f
         };
         AZ::Vector3 m_currentIdentifierColor {
-            25.0f / 255.0f, 25.0f / 255.0f, 25.0f / 255.0f
+            100.0f / 255.0f, 100.0f / 255.0f, 100.0f / 255.0f
         };
         AZ::Vector3 m_currentLineOutlineColor {
             128.0f / 255.0f, 128.0f / 255.0f, 128.0f / 255.0f
@@ -156,10 +156,10 @@ namespace LUAEditor
             160.0f / 255.0f, 160.0f / 255.0f, 164.0f / 255.0f
         };
         AZStd::string m_font {
-            "OpenSans"
+            "Consolas"
         };
         int m_fontSize {
-            10
+            12
         };
         // Number of spaces to make a tab
         int m_tabSize {
